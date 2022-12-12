@@ -1,0 +1,14 @@
+body {
+    background-color: azure;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 100px;
+    font-family: "Roboto Light", SansSerif, "DejaVu Sans";
+    font-size: 1em;
+    font-weight: normal;
+}
+img{
+    border-radius: 10px;
+    margin: 10px;
+}
