@@ -5,5 +5,5 @@ let mokymosivieta = "KTU";
 let pazymiai = [7, 4, 5,];
 
 console.log(
-    vardas + " " + pavarde + " studies at " + mokymosivieta + ", in the " + kursas + " course, his grades: " + pazymiai + "."
+    vardas + " " + pavarde + " mokosi " + mokymosivieta + ", kurse: " + kursas + " pazymiai: " + pazymiai + "."
 );
