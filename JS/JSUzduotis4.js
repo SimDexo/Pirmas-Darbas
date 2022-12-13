@@ -1,9 +1,9 @@
-let name = "Tomas";
-let surname = "Tomauskas";
-let course = "4as Kursas";
-let placeOfStudy = "KTU";
-let grades = [7, 4, 5,];
+let vardas = "Tomas";
+let pavarde = "Tomauskas";
+let kursas = "4as Kursas";
+let mokymosivieta = "KTU";
+let pazymiai = [7, 4, 5,];
 
 console.log(
-    name + " " + surname + " studies at " + placeOfStudy + ", in the " + course + " course, his grades: " + grades + "."
+    vardas + " " + pavarde + " studies at " + mokymosivieta + ", in the " + kursas + " course, his grades: " + pazymiai + "."
 );
