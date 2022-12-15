@@ -1,6 +1,6 @@
 let name = "Jonas Jonytis";
 let course = 3;
-let Mokosi = true;
+let Mokinasi = true;
 
 let variables = ["name", "course", "Mokosi"];
 
