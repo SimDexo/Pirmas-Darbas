@@ -2,15 +2,15 @@
 let studentas = {
     Vardas: "Tomas",
     Pavarde: "Tomauskas",
-    MokymosiVieta: "KTU",
+    mokymosiVieta: "KTU",
     Kursas: "4 kursas",
     Pazymiai: "7, 4, 5",
 }
 console.log(studentas.Vardas.Pavarde);
-console.log(studentas.MokymosiVieta.Kursas);
+console.log(studentas.mokymosiVieta.Kursas);
 console.log(studentas.Pazymiai);
 
-let sentence = Vardas.Pavarde + "mokosi" + MokymosiVieta + Kursas + "jo pazymiai" + Pazymiai + ".";
+let sentence = Vardas.Pavarde + "mokosi" + mokymosiVieta + Kursas + "jo pazymiai" + Pazymiai + ".";
 
 console.log(sentence);
 
