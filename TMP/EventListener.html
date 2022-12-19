@@ -1,0 +1,101 @@
+<!--Pirma Uzduotis-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Button</title>
+</head>
+<body>
+<h1>
+<button id="myButton"><strong>Say hello to the world.</strong></button>
+</h1>
+<br>
+<input type="text" id="textField">
+<script>
+  src = "TMP/Events.js"
+  document.getElementById('myButton').addEventListener('click', function() {
+    document.getElementById('textField').value = 'Hello, world!';
+  });
+</script>
+
+<!--Antra Uzduotis-->
+
+<form id="myForm">
+  <label for="select1">First options:</label><br>
+  <select id="select1">
+    <option value="op1">Option 1</option>
+    <option value="op2">Option 2</option>
+    <option value="op3">Option 3</option>
+  </select>
+  <br>
+  <label for="select2">Secondary options:</label><br>
+  <select id="select2">
+    <option value="op1">Option 1</option>
+    <option value="op2">Option 2</option>
+    <option value="op3">Option 3</option>
+  </select>
+</form>
+<br>
+<button id="Mygtukas">Submit</button>
+<script>
+  document.getElementById('Mygtukas').addEventListener('click', function() {
+
+    let newDiv = document.createElement('div');
+
+    let newInput = document.createElement('input');
+    newInput.type = 'text';
+    newInput.placeholder = 'Type here';
+
+    let newButton = document.createElement('button');
+    newButton.innerHTML = 'Click me!';
+
+    newDiv.appendChild(newInput);
+    newDiv.appendChild(newButton);
+
+    document.body.appendChild(newDiv);
+  });
+
+  <!--Trecia Uzduotis-->
+
+</script>
+<table id="myTable">
+  <tr>
+    <th>Name & Surname</th>
+    <th>Age</th>
+    <th>City</th>
+  </tr>
+</table>
+<br>
+<form>
+  <label for="nameInput">Name & Surname:</label><br>
+  <input type="text" id="nameInput"><br>
+  <label for="ageInput">Age:</label><br>
+  <input type="number" id="ageInput"><br>
+  <label for="cityInput">City:</label><br>
+  <input type="text" id="cityInput"><br>
+</form>
+<br>
+<button id="addButton">Submit</button>
+<script>
+  document.getElementById('addButton').addEventListener('click', function() {
+
+    let name = document.getElementById('nameInput').value;
+    let age = document.getElementById('ageInput').value;
+    let city = document.getElementById('cityInput').value;
+
+    let table = document.getElementById('myTable');
+    let row = table.insertRow(-1);
+    let cell1 = row.insertCell(0);
+    let cell2 = row.insertCell(1);
+    let cell3 = row.insertCell(2);
+
+    cell1.innerHTML = name;
+    cell2.innerHTML = age;
+    cell3.innerHTML = city;
+  })
+</script>
+</body>
+</html>
+
+
